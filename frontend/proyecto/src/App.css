@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background:url("../src/assets/fondo.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    object-fit: cover;
+}
+
+form button:hover {
+    background-color: #005f73;
+}
+
+form {
+    box-shadow: 0px 0px 10px 0px rgb(0,  0, 0.1);
+}

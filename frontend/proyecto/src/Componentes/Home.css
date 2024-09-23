@@ -1,0 +1,306 @@
+
+header {
+    background-color: #005f73;
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+
+.card__description p {
+    text-align: justify;
+}
+
+.mision {
+    text-align: justify;
+    
+}
+
+span {
+    color:#005f73;
+    text-decoration:underline;
+}
+
+section p {
+    text-align: center;
+    
+        
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    background-color: #005f73;
+    border-radius: 5px;
+}
+
+.home {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+}
+.home img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.hero {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: start;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center
+}
+
+.conten {
+    width: 400px;
+    background-color: #fefefe;
+    padding: 15px;
+    border-radius: 8px;
+    border: 2px solid #005f73;
+    justify-content: start;
+    
+}
+
+.hero h1 {
+    font-size: 48px;
+    justify-content: start;
+    margin: 0;
+}
+
+
+.hero a {
+    justify-content: start;
+    
+}
+
+
+.cta {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta:hover {
+    background-color: #fefefe;
+}
+
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.servicios{
+    display: flex;
+    align-items: center;
+    
+    gap: 40px;
+}
+.services {
+    height: 350px;
+    
+}
+
+.services h3 {
+    text-align: center;
+}
+
+.service {
+    height: 300px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form textarea {
+    width: 100%;
+    height: 100px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.but {
+    border: 1px solid #2d79f3;
+}
+
+footer {
+    background-color: #005f73;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.cards1 {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    
+}
+
+.card1 {
+    display: flex;
+    align-items: center;
+    max-width: 40rem;
+    width: 50%;
+
+    padding: 3rem 2rem 3rem 1.25rem;
+    background: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 6px;
+    border-radius: 1.5rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.card__right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    margin-left: 2rem;
+}
+
+.card:hover {
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 6px 12px;
+}
+
+.card__preview {
+    position: relative;
+}
+
+.card__preview img {
+    max-width: 18rem;
+    width: 32vw;
+    height: 18rem;
+    object-fit: cover;
+    margin-left: -4rem;
+    border-radius: 1.5rem;
+}
+
+
+.card__content {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    
+}
+
+.card h2 {
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+}
+
+.card p {
+    font-size: 1.075rem;
+    font-weight: 400;
+}
+
+@media (width <= 740px) {
+    .card {
+        margin: 0 2.25rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        width: 100%;
+        text-align: center;
+        flex-direction: column;
+    }
+
+.card__content {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    
+    }
+
+.card__right {
+    margin-left: 0;
+}
+
+.card h2 {
+    margin-right: 0;
+    font-size: 1.5rem;
+    }
+
+.card img {
+margin: -6rem 0 2rem 0;
+width: 100%;
+max-width: 25rem;
+    }
+
+.card__price {
+top: -4.75rem;
+    }
+
+.card__footer {
+justify-content: center;
+    }
+
+}

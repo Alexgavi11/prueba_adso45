@@ -1,0 +1,31 @@
+footer {
+    padding: 10px;
+    text-align: center;
+    background-color: #003c5c;
+    display: block;
+    border-radius: 8px;
+    
+}
+
+footer p {
+    color: #ffffff;
+}
+
+footer address {
+    color: #ffffff;
+    font-style: normal;
+}
+
+.contac{
+    color: #ffffff;
+
+}
+
+.social-buttons a {
+    display: inline-block;
+    margin: 10px;
+}
+
+.social-buttons img {
+width: 40px;
+}
