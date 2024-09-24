@@ -7,6 +7,7 @@ import Google from './assets/Google.png';
 import Apple from './assets/Apple.png';
 import Sesion from './assets/Sesion.png';
 import Swal from "sweetalert2";
+import './Login.css'
 
 
 
