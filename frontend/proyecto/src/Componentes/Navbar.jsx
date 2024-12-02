@@ -8,7 +8,7 @@ export function Navbar(){
     return(
         <div className="Navbar">
             <div className="log-img">
-            <Link to=""><img src={logo} alt="logo"/></Link>
+            <Link to="/Inicio"><img src={logo} alt="logo"/></Link>
             <h2 className="titulo">Turiscaribbean</h2>
             </div>
             <nav className="Navigation">
